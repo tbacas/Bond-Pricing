@@ -35,6 +35,6 @@ Random Forest had decent results but at the cost of speed.
 | Multi-Layer NN | .4485     | .4308    | ~36m     |
 | LSTM NN        | .7085     | .6044    | ~5h 22m  |
 | OLS            | .6277     | .6311    | ~15m     |
-| GLM            | .6898     | .6931    | ~15m     |
+| WLS            | .6898     | .6931    | ~15m     |
 | Random Forest  | .2358     | .6179    | ~1-2h    |
 
