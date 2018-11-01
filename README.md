@@ -28,3 +28,12 @@ OLS and WLS performed very quickly but fell short in accuracy.
 
 Random Forest had decent results but at the cost of speed.
 
+
+|                | Train MAE | Test MAE | Run Time |
+|----------------|-----------|----------|----------|
+| Multi-Layer NN | .4485     | .4308    | ~36m     |
+| LSTM NN        | .7085     | .6044    | ~5h 22m  |
+| OLS            | .6277     | .6311    | ~15m     |
+| GLM            | .6898     | .6931    | ~15m     |
+| Random Forest  | .2358     | .6179    | ~1-2h    |
+
